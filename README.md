@@ -29,6 +29,8 @@ Asegúrate de tener instalado:
 Ejecuta los siguientes comandos en tu terminal o PowerShell dentro del directorio del proyecto:
 
 ## ⬇Instalar dependencias principales
-pip install ultralytics==8.3.215
+pip install ultralytics
+
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
 pip install opencv-python numpy
