@@ -34,3 +34,12 @@ pip install ultralytics
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 pip install opencv-python numpy
+
+## Ejecutar el proyecto
+Ejecuta modeltrain.py para entrenar el modelo en base al dataset otorgado
+
+Ejecuta offside.py para ejecutar el sistema de detección de posible offside*
+
+siempre que se ejecute offsid.py asegurese de tener estas rutas correctamente asignadas a la instancia de entrenamiento y archivo .mp4 deseado
+model = YOLO("runs/detect/train_gpu_rtx30505/weights/best.pt")
+video_path = "partido.mp4"
